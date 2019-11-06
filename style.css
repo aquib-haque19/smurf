@@ -119,7 +119,7 @@ body
 	text-transform: uppercase;
 	}
 	
-	.title::before 
+	.title:before 
 	{
 		content: '';
 		background: #c70a6f;
@@ -131,7 +131,7 @@ body
 		transform: translateY(63px);
 	}
 	
-	.title::after
+	.title:after
 	{
 		content: '';
 		background: #c70a6f;
