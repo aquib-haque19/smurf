@@ -71,7 +71,6 @@ body
 		color: #c1c706;
 }
 
-	
 	.play-btn
 	{
 		width:45px;
@@ -111,12 +110,15 @@ body
 	}
 	
 	.services h4
-	{
-		
-		
+	{	
 	padding: 5px;	
 	margin-top: 25px;
 	text-transform: uppercase;
+	}
+
+	.services p
+	{
+		text-align: left;
 	}
 	
 	.title:before 
