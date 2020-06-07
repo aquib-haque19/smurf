@@ -25,11 +25,6 @@ body {
     padding-top: 3px;
 }
 
-.navbar-brand img:hover {
-    transform: translateX(270px);
-    transition: .8s ease-in-out;
-}
-
 .navbar-nav li {
     padding: 0 10px;
 }
@@ -44,7 +39,7 @@ body {
 .navbar-nav li a:hover {
     color: #da5904 !important;
     font-weight: 625;
-    transform: translate(-25px, -10px);
+    transform: translate(-10px, -5px);
     transition: .5s ease-out;
 }
 
@@ -76,16 +71,8 @@ body {
     color: #037a74;
 }
 
-.promo-title:hover {
-    transition: 1.2s ease-out;
-    transform: translate(120px, 200px) rotate(30deg);
-    color: #da5904;
-    background: #2994c5;
-    border-radius: 10px;
-}
-
 .img-run {
-    width: 500px;
+    width: 250px;
     -webkit-animation-name: rotate;
     animation-delay: 2s;
     -webkit-animation-duration: 2s;
@@ -116,12 +103,6 @@ body {
     margin-top: 20px;
 }
 
-.service-img:hover {
-    height: 150px;
-    transform: translateX(50px);
-    transition: 1.2s ease-in-out;
-}
-
 .services {
     padding: 20px;
 }
@@ -134,12 +115,6 @@ body {
 
 .services p {
     text-align: left;
-}
-
-.services p:hover {
-    font-size: 18px;
-    color: #5e0d0d;
-    transition: 1.2s linear;
 }
 
 .title:before {
@@ -197,11 +172,6 @@ body {
 
 #about-us ul {
     margin-left: 20px;
-}
-
-.img-fluid:hover {
-    transform: skewY(15deg)translateX(-80px);
-    transition: 1.2s ease-in-out;
 }
 
 
